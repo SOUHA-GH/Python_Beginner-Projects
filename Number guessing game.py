@@ -13,7 +13,7 @@ while count < math.log(upper - lower + 1, 2):
 	        print("Congrats you did it in ",count, " try")	    
 	    else:
 	        print("Congrats you did it in ",count, " tries")
-	        break
+	    break
 	elif x > guess:
 		print("Wrong! You guessed too small!")
 	elif x < guess:
