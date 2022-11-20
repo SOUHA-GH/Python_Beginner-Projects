@@ -1,0 +1,78 @@
+[French]
+label = "French"
+
+    [[FrenchL1.questions]]
+    question     = "What is the correct translation for 'telephone'?"
+    answers      = ["Un téléphone"]
+    alternatives = ["Portable", "Un portable", "Téléphone"]
+
+    [[FrenchL2.questions]]
+    question     = "'L'ogre est effrayant.' means: "
+    answers      = ["The ogre is scary."]
+    alternatives = ["The ogre is frightening."]
+
+    [[FrenchL2.questions]]
+    question = "'La fille est belle' means: "
+    answers = ["The girl is beautiful."]
+    alternatives = [
+        "The girl is pretty", "The girl's beautiful", "The girl's pretty"]
+
+    [[FrenchL1.questions]]
+    question     = "Looking at this word's ending, infer its gender: 'miroir'"
+    answers      = ["Masculine"]
+    alternatives = [""]
+
+    [[FrenchL1.questions]]
+    question = "Write 'the snails': "
+    answers = ["Les escargots"]
+    alternatives = [""]
+
+    [[FrenchL1.questions]]
+    question = "'Les .....' (the mices) :"
+    answers = ["Les souris"]
+    alternatives = [""]
+
+    [[FrenchL2.questions]]
+    question = "Tu as voyagé en avion. (You travelled by plane.) - Write 'You didn't travel by plane.' "
+    answers = ["Tu n'as pas voyagé en avion"]
+    alternatives = [
+        "Tu ne as pas voyagé en avion"]
+
+    [[FrenchL2.questions]]
+    question     = "Vous êtes arrivés en retard. (You arrived late.) - Write 'You didn't arrive late.' : "
+    answers      = ["Vous n'êtes pas arrivés en retard"]
+    alternatives = ["Vous n'êtes arrivés pas en retard"]
+
+    [[FrenchL2.questions]]
+    question     = "'Caroline adore sa jupe chère.' means:"
+    answers      = ["Caroline loves her dear skirt", "Caroline loves her expensive skirt"]
+    alternatives = [""]
+    hint         = "There is more than one correct answer."
+
+    [[FrenchL3.questions]]
+    question     = "Tu ..... de moi? (Did you remember me?)"
+    answers      = ["te rappelais"]
+    alternatives = [""]
+    hint = "Conjugate se rappeler (to remember) in the Imperfect tense."
+
+    [[FrenchL2.questions]]
+    question = "'Alain vit avec son cher chien.' means: "
+    answers = ["Alain lives with his dear dog"]
+    alternatives = [""]
+    hint = "There is only one correct answer."
+    explanation = """
+    The answer can't be 'Alain lives with his dog Cher', because 'cher' is not capitalized in the question.
+    And, 'Alain lives with his expensive dog', it could be correct in another context.
+    """
+
+    [[FrenchL3.questions]]
+    question = "Ils ne ...jamais." (They never washed.)"
+    answers = ["se lavient"]
+    alternatives = [""]
+    hint = "Conjugate se rappeler (to wash) in the Imperfect tense."
+
+    [[FrenchL3.questions]]
+    question = "J'.... Paul toute ma vie. (I've admired Paul all my life.)"
+    answers = ["ai admiré"]
+    alternatives = [""]
+    hint = "Conjugate admirer (to admire) in the compound past (passé composé)."
